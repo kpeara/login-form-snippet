@@ -10,10 +10,10 @@
 </head>
 <body>
     <!-- background -->
-    <div id="app" class="flex justify-center items-center bg-gray-900 w-screen h-screen">
+    <div id="app" :class="`flex justify-center items-center bg-${ loginColor }-200 w-screen h-screen`">
 
         <!-- box -->
-        <div :class="`text-lg bg-${ loginColor }-100 font-mono rounded-lg`">
+        <div :class="`text-lg bg-white font-mono rounded-lg shadow-2xl`">
 
             <!-- title -->
             <h1 :class="`p-6 bg-${ loginColor }-300 text-center uppercase font-bold text-${ loginColor }-900 text-4xl border-b-8 border-${ loginColor }-900 rounded-t-lg`">@login</h1>
