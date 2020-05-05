@@ -16,6 +16,6 @@ Vue.component("app-login-field", {
 var app = new Vue({
     el: "#app",
     data: {
-        loginColor: "blue" // default color
+        loginColor: "purple" // default color
     }
 })
